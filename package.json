@@ -1,0 +1,62 @@
+{
+  "name": "gatenoway",
+  "version": "1.0.0",
+  "description": "full secure node js gateway",
+  "main": "server.js",
+  "scripts": {
+    "serve": "'node server.js"
+  },
+  "keywords": [
+    "node.js",
+    "jwt",
+    "authentication",
+    "express",
+    "mysql"
+  ],
+  "author": "amirvatani",
+  "license": "ISC",
+  "dependencies": {
+    "@adminjs/express": "^5.1.0",
+    "@adminjs/sequelize": "^3.0.0",
+    "adminjs": "^6.8.6",
+    "archiver": "^5.3.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "clinic": "^12.0.0",
+    "cluster": "^0.7.7",
+    "connect-pg-simple": "^8.0.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "express-rate-limit": "^6.7.0",
+    "express-session": "^1.17.3",
+    "express-status-monitor": "^1.3.4",
+    "helmet": "^6.0.1",
+    "http-auth": "^4.2.0",
+    "http-proxy-middleware": "^2.0.6",
+    "install": "^0.13.0",
+    "jsonschema": "^1.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "limits": "^1.0.0",
+    "mysql2": "^2.1.0",
+    "node-http-proxy-json": "^0.1.9",
+    "npm": "^9.4.2",
+    "pg": "^8.9.0",
+    "pg-hstore": "^2.3.4",
+    "request-ip": "^3.3.0",
+    "sequelize": "^6.28.0",
+    "winston": "^3.8.2",
+    "xss-attack-detection": "^1.0.4"
+  },
+  "imports": {
+    "#service/*": "./app/service/*.js",
+    "#config/*": "./app/config/*.js",
+    "#constant/*": "./app/constant/*.js",
+    "#controller/*": "./app/controller/*.js",
+    "#middleware/*": "./app/middleware/*.js",
+    "#model/*": "./app/model/*.js",
+    "#route/*": "./app/route/*.js",
+    "#util/*": "./app/util/*.js"
+  }
+}
