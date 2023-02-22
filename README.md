@@ -45,7 +45,9 @@ XSS_ATTACK_ERROR_MESSAGE=XSS attack detected on request
 ```
 
 * use example postman to test the gateway
+
 [![RlKRX.png](https://imgtr.ee/images/2023/02/22/RlKRX.png)](https://imgtr.ee/i/RlKRX)
+
 [download postman collection](https://drive.google.com/file/d/12HiZbOZnnIl9KWj-X5p0rFgaPumby_jS/view?usp=share_link)
 
 * enjoy !
